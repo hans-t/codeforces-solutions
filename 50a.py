@@ -1,9 +1,12 @@
-# http://codeforces.com/problemset/problem/4/A
+# http://codeforces.com/problemset/problem/50/A
 from sys import stdin, stdout
-
 
 def read_int_input():
     return map(int, stdin.readline().rstrip().split())
+
+
+def read_str_input():
+    return stdin.readline().rstrip().split()
 
 
 def write_output(result):
@@ -11,10 +14,8 @@ def write_output(result):
 
 
 def main():
-    w, = read_int_input()
-    result = 'YES' if w % 2 == 0 and w > 2 else 'NO'
-    write_output(result)
-
+    m, n = read_int_input()
+    write_output(m*n//2)
 
 
 main()

@@ -1,3 +1,4 @@
+# http://codeforces.com/problemset/problem/71/A
 from sys import stdin, stdout
 
 
